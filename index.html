@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
     <section>
         <div id="imagem">
-            foto
+            
         </div>
         <div>
             <h1>Login</h1>
@@ -18,12 +20,12 @@
         <div id="form">
             <form action="cadastro.java">
                 <p>
-                    <label for="iemail">email:</label>
-                    <input type="email" name="email" id="iemail" required placeholder="digite seu email">
+                    <label for="iemail"><span class="material-symbols-outlined">person</span></label>
+                   <input type="email" name="email" id="iemail" required placeholder="digite seu email">
                 </p>
                 <p>
-                    <label for="isenha">Senha:</label>
-                     <input type="password" name="sen" id="isenha" required minlength="8" placeholder="Digite sua senha">
+                    <label for="isenha"><span class="material-symbols-outlined">key</span></label>
+                    <input type="password" name="sen" id="isenha" required minlength="8" placeholder="Digite sua senha" >
                 </p>
                 <p>
                     <input type="submit" value="Fazer login">
