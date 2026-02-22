@@ -1,4 +1,10 @@
 @charset "UT-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lobster&family=Macondo&family=Playball&display=swap');
+
+ :root {
+    --fonte02 : "lobster", sans-serif
+}
 * {
     padding: 0px;
     margin: 0px;
@@ -15,6 +21,7 @@ section {
     margin-top:70px ;
     border-radius: 20px;
     text-align: center;
+    background-color: white;
 }
 
 #imagem {
@@ -26,42 +33,42 @@ section {
     border-radius: 20px;
     
 }
-form {
-    display: block;
-}
  h1 {
     margin: 10px;
-    font-family: sans-serif;
-    color: white;
-}
-p {
-    color: white;
-}
-form > p {
-    padding: 10px;
-}
-span {
-    display: block;
-    background-color: blueviolet;
-    height: 35px;
-    border-radius: 10px;
+    font-family: var(--fonte02);
     color: rgb(0, 0, 0);
-    
 }
 input {
     height: 30px;
-    border: 4px solid blueviolet;
+    width: 300px;
+    border-radius: 5px;
+}
+span {
+    font-weight: bolder;
+}
+.campo {
+    background-color: blueviolet;
+    border-radius: 9px;
+    margin: 5px;
+    padding: 3px;
+    width: 350px;
+}
+.fl1 {
+    padding: 10px;
+    margin: 5px;
+    background-color: aqua;
+    height: 40px ;
+    font-size: 17px;
+    font-weight: bolder;
 }
 .fl {
     padding: 10px;
-    padding-bottom: 25px;
-    margin: 10px;
-    width: 100px;
+    margin: 5px;
     height: 30px;
-    border-radius: 5px;
+    font-size: 17px;
     font-weight: bolder;
+    text-align: center;
 }
 .fl:hover {
-    background-color: rgb(44, 40, 40);
-    color: white;
+    background-color: cadetblue;
 }

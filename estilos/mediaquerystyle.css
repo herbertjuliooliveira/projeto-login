@@ -1,0 +1,17 @@
+@charset "UTF-8";
+@media screen and (min-width:768px) {
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+    body, html {
+        background-image: linear-gradient(to bottom, blueviolet, blue,gray);
+    }
+    section {
+        width: 80vw;
+        border: 3px solid blue;
+    }
+    b
+
+    
+}
