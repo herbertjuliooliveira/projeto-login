@@ -16,6 +16,7 @@ body {
 #completo {
     border: 2px solid black;
     width: 350px;
+    height: 600px;
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
