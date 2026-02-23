@@ -17,6 +17,8 @@
     width: 650px;
     height: 400px;
     border-radius: 17px;
+    margin: auto;
+    margin-top: 25%;
    }
    #imagem {
     float: left;
@@ -61,6 +63,7 @@
 }
 #campo {
     float: left;
+    border-radius: 5px;
 }
 #login {
     width: 200px;
@@ -73,7 +76,14 @@
 .campo > p > input {
     width: 330px;
     height: 40px;
-    border-radius: 4px;
+    border-radius: 5px;
     text-indent: 10px;
+}
+.campo > p > i {
+    display:inline block;
+    font-size: 2em;
+    border-radius: 18px;
+    width: 30px;
+    height: 45px;;
 }
 }
