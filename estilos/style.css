@@ -55,7 +55,7 @@ h1 {
     margin: auto;
 }
 .campo > p > input {
-    width: 310px;
+    width: 280px;
     height: 30px;
     border-radius: 4px;
     text-indent: 10px;
@@ -69,10 +69,15 @@ h1 {
     color: white;
 }
 #esqueci {
+    padding: 10px;
     width: 120px;
     height: 32px;
     font-weight: bolder;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 9px;
 }
 #esqueci:hover {
-    background-color: brown;
+    background-color: rgb(48, 146, 69);
 }

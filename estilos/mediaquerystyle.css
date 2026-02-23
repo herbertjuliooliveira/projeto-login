@@ -16,13 +16,13 @@
     background-color: white;
     width: 650px;
     height: 400px;
-    border-radius: 4px;
+    border-radius: 17px;
    }
    #imagem {
     float: left;
-    width: 40%;
+    width: 50%;
     height: 420px;
-    border-radius: 0px;
+    border-radius: 13px;
    }
    .email {
     margin: 50px;
@@ -49,14 +49,18 @@
     background-color: white;
     width: 800px;
     height: 400px;
-    border-radius: 4px;
+    border-radius: 18px;
    }
    #imagem {
-    float: left;
-    width: 40%;
+    float: right;
+    width: 50%;
     height: 420px;
-    border-radius: 0px;
+    border-radius: 15px;
+    margin-left: 5px;
     
+}
+#campo {
+    float: left;
 }
 #login {
     width: 200px;
@@ -67,7 +71,7 @@
     color: white;
 }
 .campo > p > input {
-    width: 430px;
+    width: 330px;
     height: 40px;
     border-radius: 4px;
     text-indent: 10px;
