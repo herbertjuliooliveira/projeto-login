@@ -15,13 +15,17 @@ body {
 }
 #completo {
     border: 2px solid black;
-    width: 400px;
+    width: 350px;
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 20px;
     text-align: center;
     background-color: white;
+    margin-top: 80px;
+
+    transition: width 0.3s, height 0.4s;
+    transition-timing-function: ease;
 }
 
 #imagem {
@@ -51,7 +55,7 @@ h1 {
     margin: auto;
 }
 .campo > p > input {
-    width: 330px;
+    width: 310px;
     height: 30px;
     border-radius: 4px;
     text-indent: 10px;
